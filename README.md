@@ -91,4 +91,4 @@ Al intentar acceder a la ruta "Upload", se nos redirige a un formulario para pod
 
 <img src="https://github.com/Arhoc/HTB-Injection/blob/main/Screenshot%20from%202023-04-26%2014-58-57.png?raw=true">
 
-sin embargo, la web realiza verificación del tipo y tamaño de archivo, lo cual imposibilita explotar una vulnerabilidad "file upload vulnerability"
+sin embargo, la web realiza verificación del tipo y tamaño de archivo, lo cual imposibilita explotar una vulnerabilidad "file upload vulnerability", que consiste en aprovecharse de una poca o nula seguridad en formularios para subir archivos, con la finalidad de subir archivos maliciosos e inclusive, ejecutar código en la máquina víctima como el usuario www-data
